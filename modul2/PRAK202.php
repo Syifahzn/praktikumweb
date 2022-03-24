@@ -45,12 +45,8 @@
     <div>
         <label for="">Jenis Kelamin: </label>
         <span style="color:red">*<?php echo $pesanjenis_kelamin ?></span><br/>
-        <input type="radio" name="jenis_kelamin" 
-        <?php if(isset($jenis_kelamin) && $jenis_kelamin == "Laki-Laki") echo "checked"; ?>
-        value="Laki-Laki">Laki-Laki<br/>
-        <input type="radio" name="jenis_kelamin" 
-        <?php if(isset($jenis_kelamin) && $jenis_kelamin == "Perempuan") echo "checked"; ?>
-        value="Perempuan">Perempuan<br/>
+        <input type="radio" name="jenis_kelamin" value="Laki-Laki">Laki-Laki<br/>
+        <input type="radio" name="jenis_kelamin" value="Perempuan">Perempuan<br/>
     </div>
     <button type="submit">Submit</button>
 </form>
